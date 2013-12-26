@@ -159,7 +159,6 @@ config/application.yaml
 storage/homealert.sqlite
 routes/property.js.txt
 routes/property.old.js
-README.md
 node_modules/
 node_modules/**
 .idea/
