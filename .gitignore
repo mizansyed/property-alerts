@@ -165,3 +165,6 @@ node_modules/**
 .idea/**
 *idea/
 *.idea/.idea
+.idea
+HomeAlert.iml
+HomeAlert.njsproj

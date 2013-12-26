@@ -15,7 +15,7 @@
     "yaml-config": "0.3.0",
     "cron": "*",
     "async": "*",
-    "accounting": "~0.2.9",
+    "accounting": "*",
     "nodemailer": "*",
     "sqlite3": "~2.1.19",
     "goo.gl": "0.0.2"
