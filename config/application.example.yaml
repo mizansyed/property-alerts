@@ -12,7 +12,9 @@ default:
         maximum_beds: 5
         property_type: 'houses'
         page_size: 20
-    cron_frequency: '15 * * * *'
+    cron:
+        frequency: '*/15 * * * *'
+        service_url: 'http://localhost:3000/indexer'
     mail:
         from: 'mizansyed@gmail.com'
         host: 'host.withdigital.net'
@@ -20,4 +22,4 @@ default:
         auth:
             user: "postmaster@withdigital.net"
             pass: "somelongpassword"
-    alerts_to: 'mizan.syed@example.com, mizan.r.syed@example.com'
+    alerts_to: 'mizan.syed@withdigital.net, mizan.r.syed@example.com'
