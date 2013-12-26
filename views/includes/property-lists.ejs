@@ -1,0 +1,17 @@
+<div class="row">
+<%
+var json = properties;
+for (var index in properties) {
+    if (properties.hasOwnProperty(index)) {
+%>
+<div class="col-md-4">
+
+<img src="<%= properties[index].img %>" />
+<p><a href="<%= properties[index].details_url%>"><%= properties[index].address %></a></p>
+<div class="clearfix"></div>
+</div>
+<%
+    }
+}
+%>
+</div>

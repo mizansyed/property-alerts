@@ -1,0 +1,49 @@
+<% layout('bootstrap-layout') -%>
+<div class="row">
+    <div class="col-sm-2">
+         <div class="hero-widget well well-sm">
+             <div class="icon">
+                  <i class="glyphicon glyphicon-tag"></i>
+             </div>
+             <div class="text">
+                 <var><%= search_meta.area %></var>
+                 <label class="text-muted">Area</label>
+             </div>
+         </div>
+    </div>
+    <div class="col-sm-2">
+         <div class="hero-widget well well-sm">
+             <div class="icon">
+                  <i class="glyphicon glyphicon-tag"></i>
+             </div>
+             <div class="text">
+                 <var><%= search_meta.min_price_in_pound %></var>
+                 <label class="text-muted">Min price</label>
+             </div>
+         </div>
+    </div>
+    <div class="col-sm-2">
+         <div class="hero-widget well well-sm">
+             <div class="icon">
+                  <i class="glyphicon glyphicon-tag"></i>
+             </div>
+             <div class="text">
+                 <var><%= search_meta.max_price_in_pound %></var>
+                 <label class="text-muted">Max price</label>
+             </div>
+         </div>
+    </div>
+    <div class="col-sm-2">
+         <div class="hero-widget well well-sm">
+             <div class="icon">
+                  <i class="glyphicon glyphicon-tag"></i>
+             </div>
+             <div class="text">
+                 <var><%= search_meta.minimum_beds %> - <%= search_meta.maximum_beds %></var>
+                 <label class="text-muted">Rooms</label>
+             </div>
+         </div>
+    </div>
+</div>
+<% include includes/property-lists %>
+

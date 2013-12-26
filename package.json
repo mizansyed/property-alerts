@@ -1,0 +1,23 @@
+{
+  "name": "HomeAlert",
+  "version": "0.0.1",
+  "description": "Alerts via email/pushover whenever a new property is found which matches a defined criteria",
+  "main": "app.js",
+  "author": {
+    "name": "Mizan",
+    "email": "mizansyed@gmail.com"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "ejs": "~0.8.5",
+    "ejs-locals": "~1.0.2",
+    "superagent": "*",
+    "yaml-config": "0.3.0",
+    "cron": "*",
+    "async": "*",
+    "accounting": "~0.2.9",
+    "nodemailer": "*",
+    "sqlite3": "~2.1.19",
+    "goo.gl": "0.0.2"
+  }
+}

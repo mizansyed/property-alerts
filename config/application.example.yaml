@@ -1,0 +1,23 @@
+default:
+    zoopla:
+        api_key: 'asdaababbssb'
+        area: 'Bromley'
+        radius: 2
+        order_by: 'age'
+        ordering: 'descending'
+        listing_status: 'sale'
+        minimum_price: 150000
+        maximum_price: 250000
+        minimum_beds: 3
+        maximum_beds: 5
+        property_type: 'houses'
+        page_size: 20
+    cron_frequency: '15 * * * *'
+    mail:
+        from: 'mizansyed@gmail.com'
+        host: 'host.withdigital.net'
+        port: 587
+        auth:
+            user: "postmaster@withdigital.net"
+            pass: "somelongpassword"
+    alerts_to: 'mizan.syed@example.com, mizan.r.syed@example.com'
